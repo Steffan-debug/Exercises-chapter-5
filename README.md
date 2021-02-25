@@ -68,3 +68,22 @@ int main(void) {
 }
 
 Exercise  4 
+#include <stdio.h>
+
+int main(void) {
+
+  float kmh, mph;
+  
+  printf("Introduce the velocity in kilometers per hour (Km/h): ");
+  
+  scanf("%f",  &kmh);
+  
+  mph = kmh * 0.6213712;
+  
+  printf("The velocity is %f miles per hour", mph);
+  
+  return 0;
+  
+  }
+
+Exercise 5
