@@ -22,8 +22,6 @@ Exercise 2
 
 #include<stdio.h>
 
-#include<math.h>
-
  int main(void){
  
  float r;
@@ -68,6 +66,7 @@ int main(void) {
 }
 
 Exercise  4 
+
 #include <stdio.h>
 
 int main(void) {
@@ -87,3 +86,45 @@ int main(void) {
   }
 
 Exercise 5
+
+int main(void) {
+
+  int h, m, total_time;
+  
+  printf("Introduce the time in hours (no fractions): ");
+  
+  scanf("%d", &h);
+  
+  printf("Introduce the time in minutes: ");
+  
+  canf("%d", &m);
+  
+  total_time = (h * 60) + m;
+  
+  printf("The total time in minutes is: %d", total_time);
+  
+  return 0;
+  
+}
+ 
+ Exercise 6
+ 
+#include <stdio.h>
+
+int main(void) {
+
+  int h, m, fm;
+  
+  printf("Introduce the time in minutes (no fractions): ");
+  
+  scanf("%d", &m);
+  
+  h = m / 60;
+  
+  fm = m % 60;
+  
+  printf("In %d minutes there are %d hours and %d minutes", m, h, fm);
+  
+  return 0;
+  
+}
